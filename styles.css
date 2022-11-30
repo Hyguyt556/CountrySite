@@ -1,0 +1,64 @@
+/*
+    selector {
+        property: value;
+        property: value;
+    }
+
+    selector options:
+    tagname such as p or img
+    class name such as .green or .highlighted
+    tag.class such as h1.green or p.highlighted
+    ex:
+    h1.green{
+
+    }
+    parent>child
+    tagname>tagname
+    tagname>.classname
+    .classname>.classname
+*/
+
+h1.Motherland{
+    font-size: 128px;
+}
+
+.nav{
+    list-style: none;
+    border-style: dotted;
+    width: 50%;
+    margin: auto;
+   text-align: center;
+
+}
+
+.nav>li{
+    display: inline-block;
+    border-style: outset;
+    text-align: center;
+    font-size: 64px;
+    padding: 30px;
+
+}
+.facttext{
+    font-size: 48px;
+    background-color: blue;
+}
+.factimg{
+    display: inline-block;
+    margin: auto;
+    width: 110%;
+
+}
+
+
+
+body{
+
+    background-image:url(https://lp-cms-production.imgix.net/2019-06/stock-photo-sunrise-61786861.jpg) ;
+}
+
+.facttitle{
+    text-align: center;
+
+}
+
